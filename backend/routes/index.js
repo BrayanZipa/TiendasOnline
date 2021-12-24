@@ -1,9 +1,9 @@
 const routerUsers = require('./users');
-const routerMockUsers = require('./mockUsers');
+const routerSellers= require('./sellers');
 
 function RouterAPI(app){
     app.use('/users', routerUsers);
-    app.use('/mock/users', routerMockUsers);
+    app.use('/sellers', routerSellers);
 }
 
 module.exports = RouterAPI;

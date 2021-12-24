@@ -12,7 +12,7 @@ function getUsers(callback){
     })
     .catch((err)=>{
         //console.error("Error", error);
-        callback("Error ",err);
+        callback("Error al consultar",err);
     })
 }
 
