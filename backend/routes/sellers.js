@@ -1,5 +1,4 @@
 const express = require("express");
-const db = require("../src/db/firebase");
 const router = express.Router();
 const dbSeller = require("../src/db/sellerCrud");
 
